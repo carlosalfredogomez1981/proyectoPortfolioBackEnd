@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("proyectos")
-@CrossOrigin(origins = {"https://carlosalfredogomez1981.com/", "https://localhost:4200"})
+@CrossOrigin(origins = {"https://carlosalfredogomez1981.com/", "http://localhost:4200"})
 public class ProyectoController {
    @Autowired
     SProyectos sproyectos; 
